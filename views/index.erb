@@ -6,5 +6,8 @@
 <body>
 Welcome!<br>
 <a href="/new"><p>Add a Product</p></a><br>
+<% PRODUCTS_ARRAY.each.with_index do |product, i| %>
+  <%= product %><br>
+<% end %>
 </body>
 </html>

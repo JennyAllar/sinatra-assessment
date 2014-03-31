@@ -13,4 +13,12 @@ feature "User can manage products" do
     visit ('/')
     click_on "Add a Product"
   end
+
+  scenario "user can enter a new product" do
+    visit ('/')
+    click_on "Add a Product"
+    fill_in "product", with: ("Sharks with lasers on their heads")
+    click_on "Create Product"
+    expect(page).to have_content("Sharks with lasers on their heads")
+  end
 end
