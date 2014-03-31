@@ -8,4 +8,9 @@ feature "User can manage products" do
     visit ('/')
     expect(page).to have_content("Welcome!")
   end
+
+  scenario "user can click on link to add a product" do
+    visit ('/')
+    click_on "Add a Product"
+  end
 end
