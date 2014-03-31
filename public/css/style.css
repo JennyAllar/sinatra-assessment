@@ -20,9 +20,9 @@ input.input {
 }
 
 input.button {
-    background-color: dodgerblue;
+    background-color: deeppink;
     color: ghostwhite;
-    font-family: 'Impact';
+    font-family: 'Helvetica';
     font-size: 20px;
     cursor: pointer;
     border: 3px solid black;
