@@ -1,0 +1,71 @@
+body {
+    background-color: whitesmoke;
+}
+
+div.center {
+    margin: auto;
+    width: 70%;
+}
+
+div.textcenter {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input.input {
+    width: 250px;
+    border: 3px solid black;
+}
+
+input.button {
+    background-color: dodgerblue;
+    color: ghostwhite;
+    font-family: 'Impact';
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px #888888;
+    padding:5px 15px 5px 15px;
+    margin-top:15px;
+}
+
+input.button:hover {
+    background: dodgerblue;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+input.button:active {
+    background: dodgerblue;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+span.large_text {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+p.wrong_url {
+    color: darkred;
+    font-style: bold;
+    font-size: 18px;
+    padding-top:60px;
+}
+
+div.error{
+    height:100px;
+}
+
+div.link {
+
+}
+table{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: left;
+    line-height: 200%;
+}

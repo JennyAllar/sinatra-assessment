@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My Products</title>
-</head>
-<body>
-Welcome!<br>
-<a href="/new"><p>Add a Product</p></a><br>
-<% PRODUCTS_ARRAY.each.with_index do |product, i| %>
-  <%= product %>
-  <br>
-<% end %>
-</body>
-</html>
+<div class="textcenter">
+  <html>
+  <head>
+    <title>My Products</title>
+  </head>
+  <body>
+  Welcome!<br>
+  <a href="/new"><p>Add a Product</p></a><br>
+  <% PRODUCTS_ARRAY.each.with_index do |product, i| %>
+    <%= product %>
+    <br>
+  <% end %>
+  </body>
+  </html>
+</div>
